@@ -1,6 +1,10 @@
 from pathlib import Path
 
-TEXT = "Somewhere, a river is smoothing a stone it found a million years ago. It works all night, without light, without praise, one soft pass at a time. The stone is rounder than yesterday. That is all that has happened, and it is enough."
+TEXT = """Someone carries you in from the car half asleep.
+Your cheek rests where a shoulder gives.
+Steps. A gate. Night air. Warm cloth.
+Below the house, far below the hill, the old stone of the earth is turning in its sleep, slow as a held breath.
+Everything you love is already home."""
 
 
 def write_entry(output_dir: Path = Path("/output")) -> Path:
